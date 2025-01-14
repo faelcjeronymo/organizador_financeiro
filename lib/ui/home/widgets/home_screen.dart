@@ -27,13 +27,13 @@ class _HomeScreenState extends State<HomeScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Container(
-                      margin: const EdgeInsets.only(bottom: 24.0),
+                      margin: const EdgeInsets.only(bottom: 16.0),
                       child: const Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
                             'Projeção Mensal',
-                            style: TextStyle(fontSize: 24.0),
+                            style: TextStyle(fontSize: 22.0),
                           ),
                           //TODO: Create the Calendar Select button
                         ],
@@ -94,10 +94,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Container(
-                      margin: const EdgeInsets.only(bottom: 16.0),
+                      margin: const EdgeInsets.only(bottom: 4.0),
                       child: const Text(
                         'Despesas',
-                        style: TextStyle(fontSize: 24.0),
+                        style: TextStyle(fontSize: 22.0),
                       ),
                     ),
                     ExpensesDataTable()
